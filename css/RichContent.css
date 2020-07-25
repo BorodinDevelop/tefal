@@ -1,0 +1,274 @@
+@font-face {
+	font-family: 'DINPro';
+	src: url('../fonts/PFDinTextPro-Medium.eot');
+	src: local('☺'), url('../fonts/PFDinTextPro-Medium.woff') format('woff'), url('../fonts/PFDinTextPro-Medium.ttf') format('truetype'), url('../fonts/PFDinTextPro-Medium.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DINPro';
+	src: url('../fonts/PFDinTextPro-Regular.eot');
+	src: local('☺'), url('../fonts/PFDinTextPro-Regular.woff') format('woff'), url('../fonts/PFDinTextPro-Regular.ttf') format('truetype'), url('../fonts/PFDinTextPro-Regular.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+body {	
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+}
+div {
+	box-sizing: border-box;
+}
+input:focus, a:focus, a, input{
+	outline:none !important;
+	text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+	margin: 0px;
+	font-family: DINPro;
+	font-style: normal;
+	font-weight: 500;
+}
+p{
+	font-size: 18px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: #222222;
+}
+/*Заголовки чёрный по белому*/
+h2,h3,h4,h5,h6{
+	font-size: 32px;
+	line-height: 120%;
+	letter-spacing: -0.03em;
+	color: #222222;
+}
+/**/
+.container{
+	width: 1006px;
+	margin: 0px auto;
+}
+.banner{
+	background-image: url(../img/banner_back.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 1006px;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	margin-top: 67px;
+	margin-bottom: 32px;
+}
+.logo{
+	width: 120px;
+	height: 45px;
+	margin-bottom: 24px; 
+}
+h1{
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	color: #FFFFFF;
+	max-width: 805px;
+	margin-bottom: 40px; 
+}
+.play{
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-image: url(../img/play-circle.png);
+
+}
+.comment{
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: -0.03em;
+	color: #222222;
+	margin-bottom:104px;
+	}
+/**/
+h2{
+	text-align: center;
+}
+.feature_3in1{
+	height: 480px;
+	width: 100%;
+	margin-bottom:104px;
+	background: linear-gradient(180deg, rgba(34, 34, 34, 0) 27.08%, #222222 80.73%);
+}
+/**/
+.feature_fit{
+	display:flex;
+	height: 320px;
+	margin-bottom: 104px;	
+}
+.feature_fit>img{
+	width: 551px;
+	height: 320px;
+	margin-right: 94px;
+}
+h3{
+	font-size: 32px;
+	line-height: 120%;
+	letter-spacing: -0.03em;
+	color: #222222;
+	margin-bottom: 24px;
+}
+.fit_text{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 361px;
+}
+/**/
+.feature_instantly{
+	display:flex;
+	margin-bottom:104px;
+}
+.instantly_text{
+	width: 391px;
+	height: 320px;
+	margin-right: 64px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.instantly_img{
+	width: 551px;
+	height: 320px;
+	background-image: url(../img/instantly_back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 16px;
+	position:relative;
+	
+}
+.instantly_img span{
+	position:absolute;
+	bottom:24px;
+	right: 24px;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: rgba(255, 255, 255, 0.4);	
+}
+/**/
+.feature_fast{
+	display:flex;
+	margin-bottom: 104px;
+}
+.feature_fast>img{
+	width: 551px;
+	height: 320px;	
+	margin-right: 97px;
+}
+.fast_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 358px;
+	height: 320px;
+}
+/**/
+.feature_big{
+	display:flex;
+	margin-bottom: 104px;
+}
+.feature_big>img{
+	width: 551px;
+	height: 320px;
+}
+.big_text{
+	width: 358px;
+	height: 320px;
+	margin-right: 97px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/**/
+.mini_features{
+	display:flex;
+	margin-bottom:104px;
+}
+.block1,.block2,.block3{
+	width: 292px;
+	height: 344px;
+}
+h4{
+	margin-bottom: 12px;
+}
+.block1 p,.block2 p,.block3 p{
+	font-size: 18px;
+	line-height: 150%;
+	letter-spacing: -0.03em;
+	color: rgba(34, 34, 34, 0.6);
+}
+.block1 img,.block2 img,.block3 img{
+	width: 292px;
+	height: 198px;
+	margin-bottom: 24px;
+}
+.block1{
+	margin-right: 64px;
+}
+.block2{
+	margin-right: 64px;
+}
+/**/
+.feature_care{
+	display:flex;
+	margin-bottom: 104px;
+}
+.feature_care>img{
+	width: 551px;
+	height: 320px;
+	margin-right:97px; 
+}
+.care_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/**/
+.feature_power{
+	display:flex;
+	margin-bottom: 104px;
+}
+.power_text{
+	width: 358px;
+	height: 320px;
+	margin-right: 97px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.power_img{
+	width: 551px;
+	height: 320px;
+	background-image: url(../img/disinfection_power.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative; 
+}
+.power_img>p{
+	position: absolute;
+	bottom:24px;
+	left:50%;
+	margin-left:-180px;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/**/
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
